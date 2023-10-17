@@ -14,7 +14,7 @@ import os
 #TYPE YOUR PRICE BELOW AS INTEGER
 DESIRED_PRICE=10
 #EMAIL ADDRESS(sender)
-sender = os.environ.get("{YOUR_ENVIRONMENT_VARIABLE}")
+sender = os.environ.get("YOUR_ENVIRONMENT_VARIABLE")
 #email address where you want to get notification
 receiver = "YOUR_EMAIL_HERE@gmail.com"
 #LINK FOR DESIRED AMAZON ITEM
