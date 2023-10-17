@@ -11,13 +11,13 @@ import os
 # Outlook: outlook.office365.com
 # Yahoo: smtp.mail.yahoo.com
 # for your email provider e.g."Gmail SMTP address"
-#TYPE YOUR PRICE BELOW AS INTEGER⬇
+#TYPE YOUR PRICE BELOW AS INTEGER
 DESIRED_PRICE=10
-#EMAIL ADDRESS(sender) ⬇
+#EMAIL ADDRESS(sender)
 sender = os.environ.get("{YOUR_ENVIRONMENT_VARIABLE}")
-#email address where you want to get notification ⬇
+#email address where you want to get notification
 receiver = "YOUR_EMAIL_HERE@gmail.com"
-#LINK FOR DESIRED AMAZON ITEM ⬇
+#LINK FOR DESIRED AMAZON ITEM
 # FOR EXAMPLE:
 ITEM_URL="https://www.amazon.com/dp/B075CYMYK6?ref_=cm_sw_r_cp_ud_ct_FM9M699VKHTT47YD50Q6&th=1"
 header={
